@@ -1,0 +1,45 @@
+# Section 3 - Intermediate HTML
+
+### List Element
+
+These are elements that we are organizing in form of lists. Two types - ordered and un ordered list. Unlike other tags, the list will have another component inside the list tag, which is the list element tag. 
+
+**Un ordered List Syntax**
+
+<ul> 
+
+<li> List Element </li>
+
+</ul>
+
+**Ordered List Syntax**
+
+<ol> 
+
+<li> List Element </li>
+
+</ol>
+
+The difference between ordered and un ordered list is the the ordered one will have numbers and the un ordered list will have bullet points. We can also nest one list inside another by nesting it. 
+
+### Anchor Elements
+
+These are hypertext. These texts have links embedded inside them. 
+
+### HTML attributes
+
+The general HTML attributes are structured in this manner:
+
+<tag attribute = value> Content </tag>
+
+There can be more than one attribute in a tag. 
+
+There are attributes that are specific to a tag, and then there are attributes that are global, i.e we can use them in any html tag. 
+
+### Image Element
+
+This tag renders image in a website. General syntax :
+
+<img src = “url” alt = “” /> 
+
+This is a self closing tag. The alternative text attribute should be present as it will display the content if the browser is unable to display the image for some reason.
