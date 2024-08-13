@@ -51,10 +51,10 @@ Similar to the heading element, it represents the paragraph. Syntax -
 
 ### Void Element
 
-In these elements we cannot put anything inside the tag. Ex - <hr />, <br />
+In these elements we cannot put anything inside the tag.
 
 The **hr** represents a horizontal rule element which will add a line in the position it is placed. It does not need any contents for it to work. 
 
 Similarly the **br** represents a line break in between contents of a same paragraphs. It is recommended to use break element when we need to have things in separate lines rather than using it to separate paragraphs. 
 
-In these void elements, sometimes the ending /> , people will remove the / and just write <hr> etc. Its perfectly fine
+In these void elements, sometimes the ending /> , people will remove the / and just write **<hr>** etc. Its perfectly fine
