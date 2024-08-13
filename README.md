@@ -54,3 +54,39 @@ The **hr** represents a horizontal rule element which will add a line in the pos
 Similarly the **br** represents a line break in between contents of a same paragraphs. It is recommended to use break element when we need to have things in separate lines rather than using it to separate paragraphs. 
 
 In these void elements, sometimes the ending /> , people will remove the / and just write tag hr etc. Its perfectly fine syntax but not a good practice. 
+
+# Section 3 - Intermediate HTML
+
+### List Element
+
+These are elements that we are organizing in form of lists. Two types - ordered and un ordered list. Unlike other tags, the list will have another component inside the list tag, which is the list element tag. 
+
+**Un ordered List Syntax**
+
+<ul> 
+
+<li> List Element </li>
+
+</ul>
+
+**Ordered List Syntax**
+
+<ol> 
+
+<li> List Element </li>
+
+</ol>
+
+The difference between ordered and un ordered list is the the ordered one will have numbers and the un ordered list will have bullet points. We can also nest one list inside another by nesting it. 
+
+### Anchor Elements
+
+These are hypertext. These texts have links embedded inside them. 
+
+### HTML attributes
+
+There can be more than one attribute in a tag.  There are attributes that are specific to a tag, and then there are attributes that are global, i.e we can use them in any html tag. 
+
+### Image Element
+
+This tag renders image in a website.  This is a self closing tag. The alternative text attribute should be present as it will display the content if the browser is unable to display the image for some reason.
