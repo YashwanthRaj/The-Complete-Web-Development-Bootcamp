@@ -31,23 +31,19 @@ HTML stands for Hyper Text Markup Language. HTML comprise of the contents that a
 
 ### Heading Element
 
-These represent the heading contents in a website. General syntax for tags - 
-
-<h1> Contents </h1>
+These represent the heading contents in a website. General syntax for tags in HTML is that they are included 
 
 Here the h1 represent the tag name and the the closing tag will have / inside it. 
 
-Tags refer to the content inside the angle braces. Eg. <h1> </h1>
+Tags refer to the content inside the angle braces. 
 
-Elements refer to the entire line with tag and content. Eg. <h1> Contents </h1>
+Elements refer to the entire line with tag and content.
 
 The h1, h2, h3, h4, h5 and h6 represent the level of headings.
 
 ### Paragraph Element
 
-Similar to the heading element, it represents the paragraph. Syntax - 
-
-<p> Content </p>
+Similar to the heading element, it represents the paragraph. 
 
 ### Void Element
 
@@ -57,4 +53,4 @@ The **hr** represents a horizontal rule element which will add a line in the pos
 
 Similarly the **br** represents a line break in between contents of a same paragraphs. It is recommended to use break element when we need to have things in separate lines rather than using it to separate paragraphs. 
 
-In these void elements, sometimes the ending /> , people will remove the / and just write **<hr>** etc. Its perfectly fine
+In these void elements, sometimes the ending /> , people will remove the / and just write tag hr etc. Its perfectly fine syntax but not a good practice. 
