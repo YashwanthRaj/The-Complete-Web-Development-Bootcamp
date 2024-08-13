@@ -1,0 +1,35 @@
+# Section 2 - Introduction to HTML
+
+### What is HTML ?
+
+HTML stands for Hyper Text Markup Language. HTML comprise of the contents that are shown in a website. In general, CSS and JS cannot alone comprise a website. But CSS alone can be a website. 
+
+### Heading Element
+
+These represent the heading contents in a website. General syntax for tags - 
+
+<h1> Contents </h1>
+
+Here the h1 represent the tag name and the the closing tag will have / inside it. 
+
+Tags refer to the content inside the angle braces. Eg. <h1> </h1>
+
+Elements refer to the entire line with tag and content. Eg. <h1> Contents </h1>
+
+The h1, h2, h3, h4, h5 and h6 represent the level of headings.
+
+### Paragraph Element
+
+Similar to the heading element, it represents the paragraph. Syntax - 
+
+<p> Content </p>
+
+### Void Element
+
+In these elements we cannot put anything inside the tag. Ex - <hr />, <br />
+
+The **hr** represents a horizontal rule element which will add a line in the position it is placed. It does not need any contents for it to work. 
+
+Similarly the **br** represents a line break in between contents of a same paragraphs. It is recommended to use break element when we need to have things in separate lines rather than using it to separate paragraphs. 
+
+In these void elements, sometimes the ending /> , people will remove the / and just write <hr> etc. Its perfectly fine
