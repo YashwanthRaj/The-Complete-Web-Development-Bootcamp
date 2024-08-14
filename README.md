@@ -111,3 +111,31 @@ The third element is the head which is the head, which is where all the importan
 charset which represents the character set of the contents of the website. 
 
 Then Lastly the body inside which we code i.e include the body of the website.
+
+# Section 5 - Introduction to CSS
+
+### What is CSS?
+
+CSS stands for Cascading Style Sheet. It is used to add style to the HTML web pages. There are three types of css declaration
+
+1. Inline - We style an element by adding style attributes in the HTML tag.
+2. Internal - We add declare the CSS inside the style tag and place it inside head tag in HTML.
+3. External - We create a separate css file with all the styling elements and link it with HTML.
+
+When we have a multipage website, it is very essential to have external style sheet. Anyway in all cases external css is recommended. 
+
+Generally, in css we have the css selector which denotes what to apply changes on, then property that we want to change/style. Then comes the value of the property.
+
+### CSS Selector
+
+The part that selects a html element so that we can apply css to that element. We can select a html tag, class and ID for a html element. Class can be same for many html elements denoted by .className in css. The ID cannot be same for multiple elements denoted by # in css. 
+
+If we have a general tag, then we have classes and IDs that fall under the general tag, then the css will consider only the higher level css selector like class and ID. 
+
+### Attribute Selector
+
+Another way we can select parts of our HTML is using attribute selector denoted by tagName[attributeName] . 
+
+### Universe Selector
+
+This is to select all in a html page denoted by *.
