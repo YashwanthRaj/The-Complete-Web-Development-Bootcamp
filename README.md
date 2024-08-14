@@ -48,7 +48,6 @@ Similar to the heading element, it represents the paragraph.
 ### Void Element
 
 In these elements we cannot put anything inside the tag.
-
 The **hr** represents a horizontal rule element which will add a line in the position it is placed. It does not need any contents for it to work. 
 
 Similarly the **br** represents a line break in between contents of a same paragraphs. It is recommended to use break element when we need to have things in separate lines rather than using it to separate paragraphs. 
@@ -90,3 +89,25 @@ There can be more than one attribute in a tag.  There are attributes that are sp
 ### Image Element
 
 This tag renders image in a website.  This is a self closing tag. The alternative text attribute should be present as it will display the content if the browser is unable to display the image for some reason.
+
+# Section 4 - Mutipage websites
+
+### Computer file paths
+Direct to a specific file or a folder. Two types
+Absolute file path - The address is from root of a computer.
+Relative file path - The address is in relation to the present file that we are working on. Here the file path will start form the current directory. 
+To travel up a folder, we use ../ (Double dot slash)
+To stay in the current directory, we can use ./ (Single dot slash)
+
+### HTML Boilerplate
+
+The initial code that defines the basic structure of an HTML code.
+
+The first line is the doctype which represents the version of HTML. 
+
+The next line is the HTML tag which between which all the code will be entered. It has an attribute called lang which is the language that its written. 
+
+The third element is the head which is the head, which is where all the important information about our webpage is included, like the website name and other links. It has some attributes like 
+charset which represents the character set of the contents of the website. 
+
+Then Lastly the body inside which we code i.e include the body of the website.
