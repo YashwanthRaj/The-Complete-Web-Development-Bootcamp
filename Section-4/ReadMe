@@ -1,0 +1,25 @@
+# Section 4 - Mutipage websites
+
+### Computer file paths
+
+Direct to a specific file or a folder. Two types
+
+Absolute file path - The address is from root of a computer.
+
+Relative file path - The address is in relation to the present file that we are working on. Here the file path will start form the current directory. 
+
+To travel up a folder, we use ../ (Double dot slash)
+
+To stay in the current directory, we can use ./ (Single dot slash)
+
+### HTML Boilerplate
+
+The initial code that defines the basic structure of an HTML code.
+
+The first line is the doctype which represents the version of HTML. 
+
+The next line is the HTML tag which between which all the code will be entered. It has an attribute called lang which is the language that its written. 
+
+The third element is the head which is the head, which is where all the important information about our webpage is included, like the website name and other links. It has some attributes like charset which represents the character set of the contents of the website. Then 
+
+Lastly the body inside which we code i.e include the body of the website.
