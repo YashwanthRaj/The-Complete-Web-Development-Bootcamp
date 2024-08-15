@@ -1,0 +1,23 @@
+# Section 6 - CSS Properties
+
+### Font Sizes
+
+1px → 1/96th inch
+
+1pt → 1/76th inch [What we specify in word]
+
+1em → 100% of parent
+
+1rem → 100% of root
+
+### The Box Model
+
+Border → Outermost space between padding and margin. 
+
+Padding → Adds space between element and the border. 
+
+Margin → Space between other element and border.
+
+### HTML Div
+
+Div tags represents a container/division in the body of a HTML. Div helps in grouping our elements together. We can set padding and margin and stuff to each individual div tags and style them independently.
