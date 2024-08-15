@@ -1,0 +1,24 @@
+body {
+    background-color: black;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.Image {
+    border: 5px solid white;
+    margin: 20px;
+    margin: 20px;
+}
+
+.Text{
+    color: white;
+    margin: 20px;
+}
+
+#Heading {
+    font-size: 45px;
+}
+
+#Meme {
+    font-size: large;
+}
