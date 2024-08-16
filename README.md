@@ -163,3 +163,39 @@ Margin → Space between other element and border.
 ### HTML Div
 
 Div tags represents a container/division in the body of a HTML. Div helps in grouping our elements together. We can set padding and margin and stuff to each individual div tags and style them independently.
+
+# Section 7 - Intermediate CSS
+
+### CSS cascade
+
+When we have multiple styling which targets same html element, there is a hierarchy that need to be followed in order to determine which style is applied to the element. We are going to access which css is applied with respect to 
+
+Position: In a css if there are two different values of a same attribute/style, then the one in the lower line i.e the one declared at last will win.
+
+Specificity: If we have one defined to class then one targeting specific id, then the id will win.
+
+Type: The inline will get first preference, then the internal and lastly external. 
+
+Importance: In css we can specify a property to be important. Then thats what will be considered. 
+
+### Combining CSS Selector
+
+If there is a div which has a class name c, then there is p tags all over the code, and we want to apply a style to the p tag which is inside the div with class name c, we can add the name of the class and the tag name which will select the the tag inside the div class c. 
+
+When we want to target multiple class or id or tag, instead of typing the selector and the style multiple times, we can mention them in a single line separated by commas, and then declare the style that we want to apply to all of them.
+
+If we want to target a parent and direct descendant of the parent class, then we mention parent > child as the selector and then specify the css code. Useful when there are multiple elements with then same class name and same tags. 
+
+If we have so many combinations of class, id and tags and we want to select a specific combination, then we will type all the selectors without space. This is called chaining. It will apply to elements which will have all the selectors mentioned in the chain. When chaining, the tag name will come first as that in between can be confusing. 
+
+### CSS Positioning
+
+There are 4 types of positioning present - Static, relative, absolute and fixed. 
+
+**Static -** By default static positioning will be applied. 
+
+**Relative** - A Position relative to the default position, not relative to any other element. 
+
+**Absolute** - Position relative to nearest positioned ancestor or top left corner of webpage. Another aspect of absolute positioning is the z index which determines which element will go on top of the other. When we set the position of the element to absolute, the what happens is it will take the element and keep it on a different layer than other layer. 
+
+**Fixed** - Position relative to the top left corner of the browser window. Will not change even when we scroll down and up.
