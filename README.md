@@ -199,3 +199,33 @@ There are 4 types of positioning present - Static, relative, absolute and fixed.
 **Absolute** - Position relative to nearest positioned ancestor or top left corner of webpage. Another aspect of absolute positioning is the z index which determines which element will go on top of the other. When we set the position of the element to absolute, the what happens is it will take the element and keep it on a different layer than other layer. 
 
 **Fixed** - Position relative to the top left corner of the browser window. Will not change even when we scroll down and up.
+
+# Section 8 - Advanced CSS
+
+### Display
+
+The span element is used when we want to insert another element/text inside another element so that we can style that separately. There is a css property called display which will help us in positioning the html element. When an element display property is set to block, it will take up the entire screen width and we cannot place diff elements on the same line. [horizontally]. When set to inline, it will have width of the content of the html element, so that other element will be on the same line until we can no longer fit anymore on the same line. In inline property, the height and width cant be set as it depends on the elements size. 
+
+There is another property of display called inline block. This will allow us to have same line elements and set the height and width as well. 
+
+If the display property is set to none, then the element will disappear. 
+
+### Float
+
+When we want a element to wrap around another element, then we use float. If we have any elements that we do not want to wrap around an element with float property, then we use clear property. 
+
+### Media Query
+
+We specify @media instead of query selector and we mention a condition. The media will be displayed only when the condition is met. 
+
+### Grid
+
+We use set the display property to grid. This applies to 2D layout. Inside a main/parent div which will have many small divs which we will position accordingly. We specify the what Then we specify all the properties of the grid like columns, rows and gap between them. 
+
+### Flex Box
+
+We use display property to flex. Very similar to grid, but it specializes in 1D latout. 
+
+### Bootstrap
+
+This is a external CSS framework. They have defined whole bunch of classes with specific designs and we import bootstrap. Then we use these classes to the html elements so that they will get the design.
