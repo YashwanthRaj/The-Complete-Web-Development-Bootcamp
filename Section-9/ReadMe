@@ -1,0 +1,39 @@
+# Section 9 - CSS Flex Box
+
+### Flexbox
+
+Used in designing structure of a webpage. The way we design a flexbox is that we create a main div and place all the other divs inside the main container. Then we target the smaller containers and design/place them. The default flow is inline [Horizontally]. We can change this by setting the flex-direction property.
+
+There are two axis on which the flex box positions the elements. The main axis which by default is left to right [horizontally] [inline]. And the cross axis which by default is from top to bottom. First the elements are placed in main axis. Once there is no place in the main axis then the cross axis is used as reference. 
+
+The flex basis property will expand along the main axis. But this property is applied to the children and not the parent.
+
+### Flex Layout
+
+If in a main div, many smaller divs are arranged, then we can change the order property of the element and change the position. By default all the elements have order 0. And the elements are positioned in the ascending order of their order number. Set to individual elements/divs. 
+
+flex-wrap property will place the elements in the secondary axis when the screen is minimized. Set to main container. 
+
+justify-content property will set the distribution along the main axis. This will align the elements according to the screen space. Set to parent div. 
+
+align-item property will set the distribution along the secondary axis. To have these, we need to have some height to the main div, so that we can place it accordingly. This property is set to main div.
+
+If we want some elements to be aligned different from all the other elements, then we can use align-self on the element itself.
+
+align-content property is very similar to the align-item but this only works when the flex-wrap is set to wrap. 
+
+### Flex Sizing
+
+The hierarchy → 
+
+content width < width < flex-basis < min-width/max-width
+
+For a paragraph tag or an element inside a flex-box, when the box shrinks, then the elements will also shrink. This is the default behavior of the flex box. The min-width is the length of the longest word inside a div/tag. The max-width is the length of the complete sentence. 
+
+flex-grow and flex-shrink will grow and shrink according to the flex-box size and given initial size. For the flex-grow, it will grow till max-width and the flex-shrink will shrink till min-width. By default, the flex-grow is off and the flex-shrink is on.  
+
+Usually we use a short hand way to write the three flex properties i.e grow, shrink and basis. 
+
+flex: 1 1 0; [grow, shrink and basis]
+
+We can set a ratio of proportion of element with specifying the flex value as 1, 2, 3 respectively.
