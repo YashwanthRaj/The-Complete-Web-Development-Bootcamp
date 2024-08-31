@@ -1,0 +1,20 @@
+.Board {
+    width: 800px;
+    height: 800px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.Board > * {
+    width: 100px;
+    height: 100px;
+}
+
+.White {
+    background-color: rgb(228, 207, 168);
+}
+
+.Black {
+    background-color: rgb(120, 87, 2);
+}
