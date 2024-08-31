@@ -1,0 +1,9 @@
+# Section 10 - CSS Grid
+
+Now that we have learnt about flexbox which will help us align items in a 1 dimensional direction, grid helps us achieve the same functionality in 2 dimensional way. We can also use a flexbox inside a grid while designing our website and the other way around. Using the column and row grid template, we will define how much space the grid elements will occupy. 
+
+## Grid Placement
+
+The entire grid we place it inside a div called **container**(Container referring to the class name, is the name that we usually call the div which has a grid). We have our row **tracks** and column **tracks** which are the rows and columns that we size. Within the intersection of these tracks lies the **cells**. We then combine these cells in order to place **items**. In addition there are **lines** that separate these tracks which we control by gap property.  
+
+We use span keyword to denote that an element will occupy two cells. We can also specify the row/ column start and end to specify the exact position. Unlike the flexbox, grid allows us to overlap different elements. We can achieve this by simply positioning it on top of each other.
