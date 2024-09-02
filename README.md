@@ -295,3 +295,32 @@ The div is divided into 12 smaller cells and we can specify how many of these ce
 ## Bootstrap Components
 
 One of the main reasons to use bootstrap is the inbuilt components like buttons, cards. carousels etc. We can achieve this by simply adding a bootstrap class. When we use margin, the background is not included in it. But when we use padding, the background is also extended.
+
+# Section 12 - Web Design School
+
+Four pillars of web design - Color Theory, Typography, User Interface Design, User Experience Design. 
+
+### Color Theory
+
+Science of creating the color pallet for our website. Each color will have its own significance and mood setting, which we will take into consideration while designing the website for product or service. If we head to [colorhunt.co](http://colorhunt.co) there professionals will have created color pallet that we can use. 
+
+### Typography
+
+Two families in typography - Serif and San-Serif. The fonts have similar effect as the color. Each font has its own significance. 
+
+### UI Design
+
+1. **Hierarchy** - We can establish hierarchy in our design, to denote the text with higher significance/importance. 
+2. **Layout** - This is important. The structure should be appealing. 
+3. **Alignment** - How the elements are aligned in the website. 
+4. **White Space** - Empty space that surroundings.
+5.  **Audience** - The design should be focused towards target audience. 
+
+### User Experience Design
+
+The overall experience of a person using a product such as a website or computer application, especially in terms of how easy or appealing it is to use.
+
+1. Simplicity
+2. Consistency
+3. Reading Patterns
+4. All Platform design
