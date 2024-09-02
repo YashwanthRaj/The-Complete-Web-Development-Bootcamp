@@ -279,3 +279,19 @@ Now that we have learnt about flexbox which will help us align items in a 1 dime
 The entire grid we place it inside a div called **container**(Container referring to the class name, is the name that we usually call the div which has a grid). We have our row **tracks** and column **tracks** which are the rows and columns that we size. Within the intersection of these tracks lies the **cells**. We then combine these cells in order to place **items**. In addition there are **lines** that separate these tracks which we control by gap property.  
 
 We use span keyword to denote that an element will occupy two cells. We can also specify the row/ column start and end to specify the exact position. Unlike the flexbox, grid allows us to overlap different elements. We can achieve this by simply positioning it on top of each other.
+
+# Section 11 - Bootstrap Framework
+
+This framework [Pre made css files] has may css files that we can include in our program. We can achieve all the functionality by just adding the class name into our program. So instead of writing all the css code by ourselves, we need to just know which class name to add. The advantages of external css is that it is very easy to use and quicker. It has a wide browser compatibility and make our code uniform. The disadvantages of bootstrap is that it creates class bloat in html. As good practice of web development is to add content in html and style in css, because we will add the class names in the html, it will be a little confusing. The second disadvantage is that it will lack customizability. 
+
+When we want to build a mobile first website which is professional and quick to build, we will use bootstrap. When we want a complex really personalized website, we will use regular/native css.  First the html code will load the bootstrap and apply the styling. Then it will look for the custom styling that we have coded. 
+
+## Bootstrap 12 Column layout
+
+It will have an outermost div called container, then it will have a div for called row and inside it will have items, denoted by col class name. We can specify the size of container by specifying the container-sm/md etc which are based on common screen sizes.
+
+The div is divided into 12 smaller cells and we can specify how many of these cells that a item can take. Suppose we specify col-3, this denotes that this element will occupy 3 smaller cells. We can specify many breakpoints for each screen sizes. 
+
+## Bootstrap Components
+
+One of the main reasons to use bootstrap is the inbuilt components like buttons, cards. carousels etc. We can achieve this by simply adding a bootstrap class. When we use margin, the background is not included in it. But when we use padding, the background is also extended.
