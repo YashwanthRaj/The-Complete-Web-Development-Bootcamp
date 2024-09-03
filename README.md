@@ -362,3 +362,16 @@ https://appbrewery.github.io/capstone-2-example
 - Hour 2-3: Develop HTML structure and CSS styling, test on different devices and browsers.
 - Hour 4: Finalize design and content, make any necessary revisions, optimize for performance.
 - Hour 5: Launch the website and share with others in the Q&A for feedback, make any final adjustments.
+
+
+# Section 14 - Introduction to Javascript ES6
+
+We use javascript to add functionality to our website. 
+
+### Strings
+
+Sequence of characters is called strings. stringName.length will return the number of characters inside string.length. We can use slice function to take a part of a string. We can use functions like toUpperCase and toLowerCase to change the contents of string to upper and lower case. 
+
+### Functions
+
+We can write pieces of code that can take in parameter and return something, main important point is those are reusable. Once we have defined a function, we can just call them and run all the blocks of code defined inside it.
