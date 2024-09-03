@@ -1,0 +1,80 @@
+.profile-img {
+    border-radius: 25%;
+    height: 180px;
+  }
+
+.Info-Container {
+    margin: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Info-Container > * {
+    margin: 30px;
+}
+
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+#Name {
+    font-family: 'Roboto', sans-serif; 
+    font-size: 2em; 
+    font-weight: bold; 
+    text-align: center; 
+    padding: 10px 20px; 
+    /* border-bottom: 2px solid #FFB6C1; */
+    /* margin-bottom: 20px;  */
+    /* letter-spacing: 2px;  */
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(1, 1fr);
+    width: 50%;
+    margin: 100px auto 0 auto;
+    text-align: left;
+    row-gap: 2rem;
+}
+
+h2 {
+    color: #ffa880;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+
+.Skills {
+    margin: 50px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.typing .chilli-img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+.btn {
+    background: #ffa880;
+    background-image: -webkit-linear-gradient(top, #ffa880, #d67a50);
+    background-image: -moz-linear-gradient(top, #ffa880, #d67a50);
+    background-image: -ms-linear-gradient(top, #ffa880, #d67a50);
+    background-image: -o-linear-gradient(top, #ffa880, #d67a50);
+    background-image: linear-gradient(to bottom, #ffa880, #d67a50);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: "Montserrat", sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
