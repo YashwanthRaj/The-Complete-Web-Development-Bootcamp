@@ -395,3 +395,15 @@ The loop runs until the condition is false.
 ## For Loops
 
 Same as while loops but only difference is we have to initialize a variable inside the parameter of the loop . We will be defining a start and end point for the variable the we created inside the loop and the loop will run until the variable value is iterated from start to end.
+
+# Section - 16 Document Object Model
+
+A way in which we can access the html elements using javascript. The DOM is a tree representation of the elements inside a webpage. Through the document, we can traverse and select an element inside js. 
+
+To select select something we use document keyword [This denotes the webpage itself] and then use querySelector(””) inside which we mention the element tag, .className or #id, same thing which we use inside a css. 
+
+Using document. we can have a number of ways in which we can acc the element. Mostly we use getElement method with specifying type of element identifier. Or we use querySelector which works on similar way but is not element identifier specific. But the querySelector selects only one element. We can use querySelectorAll Method to select all the elements with given identifier. We can also use multiple identifiers to make our selection more specific. When there is a space between the multiple selectors, then it denotes that the one element is inside another element, for eg. an anchor tag inside a unordered list li tag. But if there is no space between the elements then it means that they are the same element, for eg, an class and li. 
+
+Each element that we select can have properties and methods. The properties are the characters of the element and the methods are the functionality of the elements. 
+
+When we are dealing with modifying an element using js, the style that we use in css, if we specify the style of an element is separated by -, then in javascript it is denoted in camel case. We can also access the class list and add or remove a classname.
