@@ -1,0 +1,19 @@
+# Section 15 - Intermediate Javascript
+
+Math.random() we use it to return a random number. This will return a number between. 0 and 0.9999.  Then we can use Math.floor(num) to remove the decimal and return only the whole number. 
+
+## If-Else Statements
+
+For a given condition, if its true, we will run the code inside if block, and if its false, then we will run the else section of code. 
+
+## Arrays
+
+Linear collection of data. 
+
+## While Loops
+
+The loop runs until the condition is false. 
+
+## For Loops
+
+Same as while loops but only difference is we have to initialize a variable inside the parameter of the loop . We will be defining a start and end point for the variable the we created inside the loop and the loop will run until the variable value is iterated from start to end.
