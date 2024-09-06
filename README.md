@@ -407,3 +407,7 @@ Using document. we can have a number of ways in which we can acc the element. Mo
 Each element that we select can have properties and methods. The properties are the characters of the element and the methods are the functionality of the elements. 
 
 When we are dealing with modifying an element using js, the style that we use in css, if we specify the style of an element is separated by -, then in javascript it is denoted in camel case. We can also access the class list and add or remove a classname.
+
+# Section 17 - Dice Game
+
+An Interactive Game in which user will play against computer and on click of button, will roll the dice and decide who wins.
