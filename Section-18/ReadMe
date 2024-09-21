@@ -1,0 +1,15 @@
+# Section 18 - Advanced Javascript and DOM Manipulation
+
+In this section we are going to build Drumkit website. Here we have number of keys which represent different drum. We will make use of event listeners and make it give off sound according to the key pressed. 
+
+## Event Listeners
+
+They handle whenever an event has occurred in an element. We have an object i.e the element and we add event listener to it. Once that is done, the addeventlistener function will be triggered whenever any event occurs to the target.  
+
+The addeventlistener function will take in two parameters, one is the type of event that it has to listen to and the other is the function that it has to run when there is an event. 
+
+In any function call, if we call it using functionName() i.e specify the parentheses, then it will run the function on the spot. So if we want the function to run when it is called inside another function or only when a condition is met, OR we want to pass in this function as an input to another function, then we do not specify the () in the function name. 
+
+We can use debugger to understand what is happening in every line of the code. We can run the code step by step and find out what is happening in each line of code. Useful in troubleshooting our program. 
+
+The type of functions that can take other functions as input are called **Higher Order Functions**. The addEventListener function is a higher order function. The function that gets passed into the higher order function is called a callback function.
