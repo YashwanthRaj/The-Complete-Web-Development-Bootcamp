@@ -1,5 +1,5 @@
 # The-Complete-Web-Development-Bootcamp
-This is a contents of a full stack development course in udemy by Angels Yu. 
+This is a contents of a full stack development course in udemy by Angels Yu. <br>
 Course resources - https://www.appbrewery.co/p/web-development-course-resources
 
 # Section 1 - Front End Web Development
