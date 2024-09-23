@@ -444,3 +444,37 @@ The animate function is used to add animations to our element. Inside the animat
 # Section 21 - Simon Game
 
 This game will have Four color boxes and will give a pattern in each level. We will have to remember and click the tiles in the same pattern as shown.
+
+# Section 21 - Unix Command Line
+
+Applications on Operating System has kernel inside them. **Kernel** is the software that interacts with the hardware components like cpu, disk and memory. 
+
+Shell is the user Interface that Interacts with the kernel. We can either interact it with it using a GUI or CLI (Command Line Interface). We will be using BASH Shell, its CLI for the UNIX based system. Command Line Interface offers more control and speed over the operating system.
+
+## Basic Commands
+
+ls → Lists all files in the present current directory.
+
+cd {folder/path} → Change Directory 
+
+cd ~ → back to root directory
+
+cd .. → one directory back
+
+mkdir {FolderName} → Create a new directory inside the current directory. 
+
+touch {filename} → Creates a new file. 
+
+open {filename} → Will open filename using default application. 
+
+open -a {Application} Filename → This command will open the file with the application specified. 
+
+rm {filename} → To delete a file
+
+pwd - Print Working Directory
+
+* → Will select everything
+
+rm -r → to remove a directory
+
+sudo command → super user do command which uses admin privileges to do a command.
