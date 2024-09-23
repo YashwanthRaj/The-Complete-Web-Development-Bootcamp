@@ -428,3 +428,15 @@ In any function call, if we call it using functionName() i.e specify the parenth
 We can use debugger to understand what is happening in every line of the code. We can run the code step by step and find out what is happening in each line of code. Useful in troubleshooting our program. 
 
 The type of functions that can take other functions as input are called **Higher Order Functions**. The addEventListener function is a higher order function. The function that gets passed into the higher order function is called a callback function.
+
+# Section 19 - jQuery
+
+jQuery is a javascript query. Very similar to bootstrap in css. We use google CDN as they are widely used and because it is popular, if the previous website is using this, then for loading the next website it will be easier as everything is already cached and loaded.  
+
+The position of the script placement matters in the html tag. The script that is in last will have the effect laid at last hence we specify the most important javascript at last. We need to put the jQuery script on top of our javascript code file that we wrote so that we can include the jQuery shortcuts inside our main code.  
+
+jQuery representation - either with jQuery() or $(). The $ symbol is used to access the elements inside the html. Then we use .css method to tap into the style of the elements. Using the $ when we select an element, then all the elements will be selected, its like saying querySelectorAll and then if we want to add an event listener to all then before when we were using vanilla javascript, we used loops to find out how many elements are present and then we add event listener to all of them. But using $(”element”).addEventListener(function() {}), we can add event listener to all the occurrences. 
+
+We have .on method in jQuery which will take two parameters, one the type of event to listen to, and other is the function which will execute when the event has occurred. 
+
+The animate function is used to add animations to our element. Inside the animations, we must make use that we add numeric values to define the property that we are trying to change/animate.
