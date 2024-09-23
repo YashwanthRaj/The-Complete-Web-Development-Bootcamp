@@ -440,3 +440,7 @@ jQuery representation - either with jQuery() or $(). The $ symbol is used to acc
 We have .on method in jQuery which will take two parameters, one the type of event to listen to, and other is the function which will execute when the event has occurred. 
 
 The animate function is used to add animations to our element. Inside the animations, we must make use that we add numeric values to define the property that we are trying to change/animate.
+
+# Simon Game
+
+This game will have Four color boxes and will give a pattern in each level. We will have to remember and click the tiles in the same pattern as shown.
