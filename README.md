@@ -478,3 +478,13 @@ pwd - Print Working Directory
 rm -r → to remove a directory
 
 sudo command → super user do command which uses admin privileges to do a command.
+
+# Section 22 - Backend Web Development
+
+Our Application backend will have a server, database and application. 
+
+**Server** - Is open 24/7 in order to listen for incoming request to send the website to users computer. Any computer that is connected to internet can act as a server. 
+
+**Application** - This has the logic of the web application. This sends request and then gets back what is needed for the app to function. If we send any request that is funny and does not exist, or the computer does not know how to respond, then it will show the error 404.
+
+**Database** - Storage
