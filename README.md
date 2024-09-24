@@ -488,3 +488,45 @@ Our Application backend will have a server, database and application.
 **Application** - This has the logic of the web application. This sends request and then gets back what is needed for the app to function. If we send any request that is funny and does not exist, or the computer does not know how to respond, then it will show the error 404.
 
 **Database** - Storage
+
+# Section 23 - Node.js
+
+Node.js is asynchronous event driven javascript runtime designed to build scalable network applications.
+
+The javascript was first created to run only in browser. The after node was invented, it made running the javascript without browser possible. Node provides us with javascript runtime which enables the javascript. 
+
+Node REPL - Read Eval Print Loop is a computer environment where user inputs are read and evaluated, and then the results are returned. 
+
+node -v → command to check the version of node.
+
+node → initiate the repl.
+
+.exit/Ctrl + C → to get out of repl.
+
+node filename.js → To run the filename javascript file. 
+
+## Native Node Modules
+
+File system is the native node module that allows program to access the local storage. 
+
+When we import these modules, we will be given an option of CJS and ESM. 
+
+CJS - denotes common javascript //require keyword.
+
+ESM - denotes ECMAScript Modules //import keyword
+
+ESM is more useful and widely used. To add it in our program, in the configuration file which is package.json, we add “type” : “module”. default is Common JS
+
+### fs
+
+This is file system module is used to read and write files in local system.
+
+### NPM [Node Package Manager]
+
+It is used to collect packages that is built for node that other people have written. 
+
+The npm is a collection of libraries/modules that we can use in our code. 
+
+We use **npm init** to initialize. Once you fill all the details, it will create package.json which is just a configuration package. JSON is javascript Object Notation. This package file will have all the data that we just entered. 
+
+To install a npm package, we will use **npm install <packageName>**
