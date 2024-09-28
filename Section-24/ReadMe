@@ -80,8 +80,6 @@ This tool helps us to use backend without front end. Useful in testing.
 
 Simply put, Middleware in Express. js is a function that is accessible to the request, response objects and the next middleware function.
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/f0cbbd51-b278-480c-b5ae-a8ddedc59569/215838d3-4e15-4049-b1b1-887a5a1b5c5b/image.png)
-
 One example of middle ware is body parser
 
 **Body parser** middleware will create an object with the input that we fill and post which we can use to separately use/process the information. 
