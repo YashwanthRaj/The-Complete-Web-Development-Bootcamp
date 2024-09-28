@@ -530,3 +530,93 @@ The npm is a collection of libraries/modules that we can use in our code.
 We use **npm init** to initialize. Once you fill all the details, it will create package.json which is just a configuration package. JSON is javascript Object Notation. This package file will have all the data that we just entered. 
 
 To install a npm package, we will use **npm install <packageName>**
+
+# Section 24 - Express Framework
+
+A framework that is built on top of node. Its a javascript framework. 
+
+## Steps in creating an Express Server
+
+Step 1: Create directory
+
+Step 2: Create indes.js file.
+
+Step 3: Initialize npm.
+
+Step 4: Install the express package
+
+Step 5: Write server application in index.js
+
+Step 6: Start Server
+
+**What is a [localhost](http://localhost) ?**
+
+Hosting the server locally.  
+
+### HTTP
+
+Hyper Text Transfer Protocol. We can consider http as a language that client computers uses to communicate with the servers. 
+
+There are 5 main requests that we come across in HTTP request
+
+GET
+
+POST
+
+PUT
+
+PATCH
+
+DELETE
+
+**GET**
+
+This is used to request a resource from the server. 
+
+**POST**
+
+We use post to send a resource to server. 
+
+**PUT**
+
+Update mechanism. Here we replace a resource with whatever we are sending. 
+
+**PATCH**
+
+Update mechanism. Here we patch a resource. 
+
+**DELETE**
+
+Deletes a resource. 
+
+### Nodemon
+
+An application called **nodemon** automatically restarts the server when it detects changes inside the project file. 
+
+to install → npm install -g nodemon
+
+above, the -g represents that the package is installed globally and not just limited to this project folder that we are accessing. 
+
+## Endpoints
+
+Endpoints represent anything after the / in url. The / represents the root/home page. 
+
+## HTTP Status Codes
+
+These codes are a response from the request that we have been making. It will have information about the process report etc. 
+
+## Postman
+
+This tool helps us to use backend without front end. Useful in testing. 
+
+## Express Middleware
+
+Simply put, Middleware in Express. js is a function that is accessible to the request, response objects and the next middleware function.
+
+One example of middle ware is body parser
+
+**Body parser** middleware will create an object with the input that we fill and post which we can use to separately use/process the information. 
+
+**Morgan** middleware will give us the log of the request that is made. 
+
+We can specify out own middleware by using the app.use and then specifying/declaring the function that will have the body of what we need out middleware to do. This function will have req, res and next as parameters. The next function basically determines when we should move on from the function.
