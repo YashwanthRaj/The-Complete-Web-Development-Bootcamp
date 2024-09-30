@@ -620,3 +620,43 @@ One example of middle ware is body parser
 **Morgan** middleware will give us the log of the request that is made. 
 
 We can specify out own middleware by using the app.use and then specifying/declaring the function that will have the body of what we need out middleware to do. This function will have req, res and next as parameters. The next function basically determines when we should move on from the function.
+
+# Section 25 - Embedded Javascript
+
+Embedding javascript into html. We need to use a templating language is for embedding javascript into html. Thats where EJS comes in. EJS is like a little javascript module which can run javascript inside a html file. The format of embedded javascript is .ejs and is html with pieces of javascript in it with a special syntax. 
+
+## EJS Tags
+
+**JS Output**
+
+<%=       %>    // Contents of this tag is a javascript code which will have an output [variable names]
+
+**JS Execute**
+
+<%          %>   // Contents of this tag will executable javascript code which will not have an output that can be attached to the html. 
+
+**Render HTML**
+
+<%-          %>   // Contents of this tag should be interpreted as html code. 
+
+**Escape EJS tag [show <% or %>]**
+
+<% %        % %>    // Show the % sign 
+
+**EJS Comments**
+
+<%#          %>      // Comments
+
+**Insert another EJS**
+
+<%- include(”header.js”) %>    // Another EJS File
+
+In every project, the public folder denote the static files. We then specify the location of the static files in our program, this will make the href locations relevant to the specified public folder.
+
+## Templating
+
+Where we replace parts of our code with code from other languages. Embedded JS is an example.
+
+## Partials
+
+Instead of repeating parts of code, we can just include other content from other file,
