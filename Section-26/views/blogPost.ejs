@@ -1,0 +1,18 @@
+<%- include("partials/header.ejs") %>
+
+<% if (locals.blog) { %>
+    <h1><%= blog.name %></h1>
+    <h4><%= blog.date %></h4>
+    <p><%= blog.description %></p>
+<% } %>
+
+<form action="/updateForm" method="POST">
+    <input type="hidden" name="element" value="<%= blog.name %>">
+    <input type="text" name="name" placeholder="New Name">
+    <input type="text" name="date" placeholder="New Date">
+    <input type="text" name="description" placeholder="New Description">
+    <input type="submit" value="Update Post">
+</form>
+
+<%- include("partials/footer.ejs") %>
+
