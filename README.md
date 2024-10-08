@@ -688,3 +688,55 @@ The goal of this project is to create a Blog web application using Node.js, Expr
 1. **Node.js & Express.js:** The application will be a web server built using Node.js and Express.js. Express.js will handle routing and middleware.
 
 2. **EJS:** EJS will be used as the templating engine to generate dynamic HTML based on the application's state.
+
+# Section 27 - Git, GitHub and Version Control
+
+## Version Control using Git
+
+**Staging area:** This is the place where files that needs version tracking are stored.
+
+Commands:
+
+**git init** → This command will initialize the git version control. Use this command in the project folder.
+
+**git status** → This command inside the pwd will show all the files and if they are inside the staging area or not. i.e if their version is being tracked or not.  The files that are version tracking enabled are colored in green and others in red.
+
+**git add filename** → This will add the files in the staging area. 
+
+**git add .** → This will add everything inside the folder to the staging area
+
+**git comit -m “Message about this version”** → Comit the file.
+
+**git log** → To see all the commits we have made.
+
+**git diff filename** → This command will help us find the difference between the last saved point and last commit. 
+
+**git checkout filename** → This command will revert the file to the last committed version. 
+
+**git remote add origin <github repository link>** → To link our local repository to remote one. 
+
+**git push -u origin main** → Here main represents the branch. Here we are pushing the repo to remote
+
+## GitIgnore
+
+gitignore file is **used in a git repository to ignore the files and directories which are unnecessary to project** this will be ignored by the git once the changes as been committed to the Remote repository.
+
+Files that contain sensitive information or system generated files can be added in the gitignore. 
+
+## Gitclone
+
+We can clone and download a remote repository into our system and make changes.
+
+command → **git clone {url}**
+
+## Branching
+
+Main is the default branch. We can create several branches to build and test new features and then we can merge to main branch. 
+
+## Forking
+
+Forking is different from cloning. In Forking we take someone else’s project and grab its copy into our own account/repository. Here we can make changes to it. 
+
+## Pull Request
+
+Once you are working one code that is hosted in collaborative environment or if you work on someone else’s project and have made changes to it and want to merge them into main branch owned by them, then we create a pull request which can be approved by the owner. If approved it will be merged.
