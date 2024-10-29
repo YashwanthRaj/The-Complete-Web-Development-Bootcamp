@@ -740,3 +740,22 @@ Forking is different from cloning. In Forking we take someone else’s project a
 ## Pull Request
 
 Once you are working one code that is hosted in collaborative environment or if you work on someone else’s project and have made changes to it and want to merge them into main branch owned by them, then we create a pull request which can be approved by the owner. If approved it will be merged.
+
+# Section 31 - Databases
+
+## Two Types of Databases
+
+- SQL {Structured Query Language}
+- NoSQL
+
+## SQL
+
+In this type of databases, we enter the data in tables. We will determine the fields that are required and that creates the structure of the database. One other advantage of SQL is its ability to form relations with other tables. 
+
+Eg. Oracle
+
+## NoSQL
+
+This is type of database is flexible. In SQL, all the data must have a common structure, here in NoSQL, there is no need for a structure to be followed, This gives us the flexibility. 
+
+Eg. Mongo DB
