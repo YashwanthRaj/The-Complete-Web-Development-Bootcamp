@@ -759,3 +759,85 @@ Eg. Oracle
 This is type of database is flexible. In SQL, all the data must have a common structure, here in NoSQL, there is no need for a structure to be followed, This gives us the flexibility. 
 
 Eg. Mongo DB
+
+# Section 32 - SQL
+
+Website to practice SQL - https://sqliteonline.com/
+
+## The CRUD Operations
+
+These are the basic operations that we have to perform.
+
+**C**reate
+
+**R**ead
+
+**U**pdate
+
+**D**elete
+
+In a SQL table, we need to make all the columns unique, We can use something called primary key. primary key is must in a table as they can uniquely identify each column in a table. The primary key should be not null. 
+
+**Example SQL to create a table with columns and data types:**
+
+CREATE table shop (
+id int not null,
+name string,
+email string,
+date date,
+product string,
+price int,
+PRIMARY key (id)
+)
+
+**Example SQL to enter values into the table that we have created:**
+
+INSERT INTO shop 
+
+VALUES (1, “Yashwanth”, “sampleemail@gmail.com”,  10/30/2024, “Apple”, 40)
+
+{Here after table name, if we dont specify anything, that means we are entering into all the columns of the table, else we have to mention only the columns that we are going to enter the value}
+
+**Example SQL to show the contents of the table:**
+
+SELECT * from shop
+
+The * selects everything. We can change the * with the column names of the table which we want to be displayed. 
+
+**Example SQL to select a particular row with given parameters:**
+
+SELECT * from shop where id = 1;
+
+**Example SQL to update a particular row with given parameters:**
+
+UPDATE shop 
+
+SET price = 0.8 
+
+WHERE id = 2
+
+We use update to change values in entries.
+
+**Example SQL to alter the table:**
+
+ALTER TABLE shop
+
+ADD product_exp_date string
+
+**Example SQL to delete an entry:**
+
+Delete from shop where id = 2
+
+Foreign key: Used to establish a connection between tables. Usually what we set as a foreign key is the primary key for the other table.
+
+## Inner Join
+
+We can join two tables with a common reference point. 
+
+**Example SQL for inner join:**
+
+SELECT column_name(s) 
+
+FROM table
+
+INNER JOIN table2 ON table1.column_name = table2.column_name;
