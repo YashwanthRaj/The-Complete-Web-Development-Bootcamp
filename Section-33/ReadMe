@@ -1,0 +1,13 @@
+# Section 33 - PostgreSQL
+
+It is a open source Relational Database Management System [RDBMS]. 
+
+Link to install Postgres on local computer (Mac):
+
+Postgres Server and pgAdmin - https://sbp.enterprisedb.com/getfile.jsp?fileid=1258653
+
+The Postgres Server is the actual software or database. The pgAdmin is the UI to communicate with this Server. 
+
+We need to import a package called pg, which will help us to connect our backend to Postgres. 
+
+When we are creating a table, we specify a field as a primary key. The primary key essentially means that the values of this field is unique to every entry.
