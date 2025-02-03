@@ -10,4 +10,84 @@ The Postgres Server is the actual software or database. The pgAdmin is the UI to
 
 We need to import a package called pg, which will help us to connect our backend to Postgres. 
 
-When we are creating a table, we specify a field as a primary key. The primary key essentially means that the values of this field is unique to every entry.
+When we are creating a table, we specify a field as a primary key. The primary key essentially means that the values of this field is unique to every entry. 
+
+In SQL, we can use WHERE LIKE to tell database to return something that is like or similar or starts with a particular something and ends with whatever.
+
+Eg. select country from world_food where country like 'U'||'%' ; 
+
+This will return all the country names that starts with U.
+
+## Travel Tracker Application
+
+This is a web application that tracks all the countries that we have been with. We can add the country which will then turn into a different color denoting that we have been there. This application is built with EJS and Postgres for its database. 
+
+### Stage 1:
+
+The goal of stage 1 is to manually add few values into the database and then run the code such that the values added into the table are being reflected into the website. 
+
+We are creating a table called countries which will have the country and country code [2 Digit varchar] and another table called visited_countries to keep track of all the countries visited already and ones yet to visit. 
+
+### Stage 2:
+
+The goal is to add a name of country and the program will get the country code from the country database and will add the country code to the visited_countries table which will in return get highlighted in the website when we redirect to the home page.
+
+We are creating a table which will have the two digit country code and the country names of all the countries in a separate table. So that when user types name of countries to add in the map, we will look up this table and figure out what is the country code for this country. 
+
+ 
+
+### Stage 3:
+
+The goal of this stage is to check and report if the entered country name does not exist or already exist. This is achieved using try and catch blocks. 
+
+### Stage 4:
+
+The goal of this stage is to understand and render the country names which has a long names and people enter only one part of the country name and leave out the rest. We resolve this part by adding **like** in query. So if the country name part entered is actually part of the country name in the database, then we can identify and return the country code. 
+
+## Relational Databases
+
+### One to one
+
+Two tables are said to be in one to one relationship if one row/entry/records of one table only co-related to one row/entry/records of another table. 
+
+### **Inner Join**
+
+Joins two table based on a given criteria.
+
+### One to Many || Many to One
+
+Here one record of one table is related to many records of another table. This just depends on which table are we looking the senario from. The primary key of **one** table is the foreign key of the **many** table. 
+
+### Many to Many
+
+Two table are said to be in many to many relationship if one record of one table are linked to many records of another and one record of the other table is also linked to many records of other table. 
+
+In postgres, we usually have another table which will have one to many table to these tables, kinda like intermediary table. 
+
+We can use AS to rename variable into something else so that it will be easier for us to write further. 
+
+### Alter Table
+
+Make changes to an existing table features like adding a column or making something unique. 
+
+### Drop Table
+
+Delete a Table from database. 
+
+### Update Table
+
+This command is used to update a record, diff form alter as it deals with the features of the table and not the table data. 
+
+### Order By
+
+Allows us to arrange table in order. 
+
+### Delete data
+
+Delete an entry not table. 
+
+## Permalist Project
+
+This is a simple web based application which mimics the functionality of your todo list. . All your to do list items are displayed in postgres database. It can do all of the CRUD Operations. 
+
+In future we can add number of lists and family list as we have seen in Location Tracker poject.
