@@ -741,6 +741,66 @@ Forking is different from cloning. In Forking we take someone else’s project a
 
 Once you are working one code that is hosted in collaborative environment or if you work on someone else’s project and have made changes to it and want to merge them into main branch owned by them, then we create a pull request which can be approved by the owner. If approved it will be merged.
 
+# Section 28 - APIs
+
+APIs bridges the communication between two pieces of software. The APIs have a set of rules that the programs can follow and interact with other programs. There are many different APIs all differ in the architecture. 
+
+Usually the web APIs returns value in the form of JSON. [Javascript Object Notation]. It is primarily a javascript object that is easily sent and readable by all. 
+
+## Rest API
+
+Use HTTP protocol to interact with the API. 
+
+### Structure
+
+The API will have **endpoints**. [BaseURL/endpoint].  
+
+We can also add **query** to this endpoint. [BaseURL/endpoint?query=value]
+
+If we want to add multiple parameters, then we would add & and add them. [BaseURL/endpoint?query=value&query2=value2]
+
+Path parameters we can narrow down to specific information that we want. [BaseURL/endpoint/{path-parameter}] This can be some sort of id or key that is used to identify the specific resource. This is different from query parameter as that can contain multiple values. 
+
+## Axios
+
+Axios is a Node library that is used by servers to communicate with APIs directly. 
+
+## API Authentication
+
+4 tiers: 
+
+0: No Authentication
+
+1: Basic Authentication
+
+2: API Key Authorization
+
+3: Token Based Authentication
+
+### Basic Authentication
+
+Type Username and Password to work. Here first we need to hit the POST route for /register, then pass in username and password, essentially registering ourselves to the api services, then while hitting the GET request, we use the basic authorization with user id and password and get the information. 
+
+### API Key Authorization
+
+Note here that we have Authorization, rather than authentication. The key difference between them is that Authentication means we are verifying the details with username and password. Authorization here means that a client has permission or authorization to use the resources. 
+
+Here we use the POST route to first generate an API key and then use it to get information. 
+
+### Token Based Authentication [OAUTH]
+
+Here we have user create username and password, but this does not directly involve with the API. Once user logs in, a token will be created which will interact with the API. OAUTH is the Industry Standard. 
+
+Here the Authorizing party is different from the api service party. EG. google. We can log in using username and password in google, google can then generate api token and that token can be used to access different services. 
+
+First we use POST to the /get-auth-token. This will generate a token. Then we use GET using the Bearer Token. In the Bearer Token, we enter the token generated form the get-auth-token, this will be used to authorize and get information. 
+
+## Secrets Project
+
+**Technologies Used:** JavaScript, Node.js, Express.js, EJS, Axios, Secrets API, HTML/CSS
+
+Anonymous Secrets is a client-side web application designed to reveal user-submitted secrets anonymously, inspired by the functionality of platforms like Whisper. The application integrates with the public Secrets API to retrieve and display a randomly selected secret and its associated username on each visit. Built with Express.js and rendered using EJS templating, the app ensures dynamic content delivery while maintaining a clean and responsive user interface. Axios is employed to handle HTTP requests to the external API, enabling seamless and real-time data fetching. Static assets are served using Express middleware to support styling and layout. The project showcases proficiency in building lightweight, API-driven web applications with dynamic server-side rendering and modular architecture.
+
 # Section 31 - Databases
 
 ## Two Types of Databases
